@@ -8,30 +8,30 @@
 </head>
 <body>
     <form action="thanks.html" method="get">
-        <label>Vad hette/heter ditt första husdjur?</label> <br>
-        <input type = "text"> <br>
+        <label for="djur">Vad hette/heter ditt första husdjur?</label> <br>
+        <input id ="djur" name ="djur" type = "text"> <br>
         <br>
-        <label>Vilen av dessa maträtter gillar du?</label><br>
-        <label>Pizza</label> <input type ="checkbox" value="Pizza"><br>
-        <label>Lasange</label> <input type ="checkbox" value="Lasange"><br>
-        <label>Koldolmar</label> <input type ="checkbox" value="Koldolmar"><br>
-        <label>Köttbullar</label> <input type ="checkbox" value="Köttbullar"><br>
-        <label>Köttfärssås</label> <input type ="checkbox" value="Köttfärssås"><br>
+        <p>Vilen av dessa maträtter gillar du? <br>
+        <label for="matPizza">Pizza</label> <input id ="matPizza" name ="matPizza" type ="checkbox" value="Pizza"><br>
+        <label for="matLasange">Lasange</label> <input id ="matLasange" name ="matLasange" type ="checkbox" value="Lasange"><br>
+        <label for="matKoldolmar">Koldolmar</label> <input id ="matKoldolmar" name="matKoldolmar" type ="checkbox" value="Koldolmar"><br>
+        <label for="matKöttbullar">Köttbullar</label> <input id ="matKöttbullar" name ="matKöttbullar" type ="checkbox" value="Köttbullar"><br>
+        <label for="matKöttfärssås">Köttfärssås</label> <input id ="matKöttfärssås" name="matKöttfärssås" type ="checkbox" value="Köttfärssås"><br>
+        </p>
+        <p>Bor du i Växjö? <br>
+        <label for ="boiväxjöja">Ja</label><input id ="boiväxjöja" name ="boiväxjöja"type ="radio" value="ja"> <br>
+        <label for ="boiväxjönej">Nej</label><input id ="boiväxjönej" name ="boiväxjönej"type ="radio" value="Nej"> <br>
+        </p>
+        <label for ="recention">Skriv en kort recention om webbutvecklingskursen</label> <br>
+        <input id ="recention" name ="recention" type ="text"> <br>
         <br>
-        <label>Bor du i Växjö?</label><br>
-        <label>Ja</label><input type ="radio" value="ja"> <br>
-        <label>Nej</label><input type ="radio" value="Nej"> <br>
-        <br>
-        <label>Skriv en kort recention om webbutvecklingskursen</label> <br>
-        <input type ="text"> <br>
-        <br>
-        <label>Vilket är ditt favorit bilmärke?</label> <br>
-        <select>
+        <p>Vilket är ditt favorit bilmärke? <br>
+        <select id ="valbil" name ="valbil">
             <option value="Volvo">Volvo</option>
             <option value="Saab">Saab</option>
             <option value="Volvo">Koenigsegg</option>
         </select> <br>
-        <br>
+        </p>
         <input type ="submit" value="Skicka">
     </form>
 </body>

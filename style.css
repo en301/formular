@@ -1,3 +1,16 @@
+body{
+    background-color: floralwhite;
+}
+
 h1{
     text-align: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+img{
+    width: 100%;
 }
